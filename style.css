@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+header {
+    height: 70px;
+    background-color: #cccccc;
+    padding: 1rem;
+    ;
+}
+
+.left {
+    flex: 2;
+    align-self: flex-start;
+}
+
+.right {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.card {
+    background-color: white;
+    margin-bottom: 1.5rem;
+    border: 2px solid black;
+}
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.login {
+    color: black;
+    background-color: #2b78e4;
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    box-shadow: 2px 2px;
+}
+
+.likes {
+    color: black;
+    background-color: #f2ca4e;
+    width: 75px;
+    height: 30px;
+    font-size: 15px;
+    box-shadow: 2px 2px;
+}
+
+
+.Add {
+    color: black;
+    background-color: #93c47d;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    box-shadow: 2px 2px;
+}
+
+.input {
+    border: 2px solid black;
+    box-shadow: 1px 1px;
+}
+
+h1, h2, h3, button, .p {
+    margin-bottom: 10px;
+}
